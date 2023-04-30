@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px auto;
+    width: 1000px;
+}
+
+header,
+aside,
+main,
+footer {
+    border: 1px solid black;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+header,
+footer {
+    height: 100px;
+}
+
+aside {
+    width: 200px;
+}
+
+main {
+    display: flex;
+
+    /* margin-left: 205px; */
+}
+
+#content {
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+}
+
+#apartman {
+    margin: 0px auto;
+}
+
+.wall {
+    background-color: black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.cell {
+    display: block;
+}
+
+.door {
+    background-color: green;
+}
+
+.room {
+    border: 1px solid black;
+}
+
+.volume {
+    width: 30px;
+    height: 30px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.volume.active {
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    /* background-color: gray; */
+    background-image: url('../images/vol3.png');
+}
+
+.vol0 {
+    background-image: url('../images/vol0.png');
+}
+
+.vol1 {
+    background-image: url('../images/vol1.png');
+}
+
+.vol2 {
+    background-image: url('../images/vol2.png');
+}
+
+.vol3 {
+    background-image: url('../images/vol3.png');
+}
+
+.light {
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin: 10px auto;
+    /* background-color: yellow; */
+    /* margin-left: 100px; */
+}
+
+.light.active {
+    /* border: 1px solid black; */
+    /* border-radius: 15px; */
+    /* background-color: yellow; */
+    background-image: url('../images/1.jpg');
+}
+
+.lightOn {
+    background-color: yellow;
+}
+
+.light0 {
+    background-color: rgba(255, 255, 0, 0.42);
+}
+
+.light1 {
+    background-color: rgba(255, 255, 0, 0.676);
+}
+
+
+
+.klima,
+.climaBedRoom {
+    width: 10px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+/* .active {
+    border: 1px solid black;
+} */
+
+.tv {
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 100px;
+    height: 15px;
+    /* top: 15px; */
+    border: 1px solid black;
+}
+
+.dropbtn {
+    /* background-color: #4CAF50; */
+    color: white;
+    /* padding: 16px; */
+    font-size: 16px;
+    /* border: none; */
+
+}
+
+.dropdown {
+    position: relative;
+    /* display: inline-block; */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* left: 30px; */
+    top: 30px;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content input {
+    color: black;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    width: 100px;
+    display: block;
+}
+
+/* .dropdown-content a:hover {
+    background-color: #ddd;
+} */
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+} */
+
+#config li {
+    list-style-type: none;
+}
+
+.subMenuDevice {
+    width: 100px;
+    height: 40px;
+    /* background-color: gray; */
+    /* border: 1px solid black; */
+}
